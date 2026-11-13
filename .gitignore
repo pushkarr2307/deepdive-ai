@@ -1,0 +1,55 @@
+# Dependency directories
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Environment files with sensitive API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Data, Vector Stores & Uploads
+chroma_data/
+chroma_db/
+uploads/
+*.mp4
+*.mkv
+*.mov
+*.mp3
+*.wav
+*.m4a
+*.webm
+*.part
+*.ytdl
+dd_up_*
+dd_*
+
+# Local Database fallback dumps
+backend/data/
+server_py/data/
+*.pkl
+*.sqlite3
+
+# Binaries
+bin/*.exe
+server_py/*.exe
+*.exe
+
+# OS and Editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
